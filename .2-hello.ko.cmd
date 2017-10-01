@@ -1,0 +1,1 @@
+cmd_/home/mellow/kernel-programming/2-hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/mellow/kernel-programming/2-hello.ko /home/mellow/kernel-programming/2-hello.o /home/mellow/kernel-programming/2-hello.mod.o ;  true
