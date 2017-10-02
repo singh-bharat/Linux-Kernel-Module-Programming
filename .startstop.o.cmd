@@ -1,0 +1,1 @@
+cmd_/home/mellow/kernel-programming/startstop.o := ld -m elf_x86_64   -r -o /home/mellow/kernel-programming/startstop.o /home/mellow/kernel-programming/5-start.o /home/mellow/kernel-programming/5-stop.o 

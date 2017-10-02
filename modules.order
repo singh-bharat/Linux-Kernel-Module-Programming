@@ -1,3 +1,5 @@
 kernel//home/mellow/kernel-programming/1-hello.ko
 kernel//home/mellow/kernel-programming/2-hello.ko
 kernel//home/mellow/kernel-programming/3-hello.ko
+kernel//home/mellow/kernel-programming/4-hello.ko
+kernel//home/mellow/kernel-programming/startstop.ko
