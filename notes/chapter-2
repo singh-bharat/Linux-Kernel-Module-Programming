@@ -1,0 +1,13 @@
+> /printk()/ is defined in kernel and behaves similarly to the standard C library function /printf()/
+
+> kernel needs its own function because it runs w/o any help from the C library
+
+> module can call /printk/ because after /insmod/ has loaded it, it's attached to the kernel and can access the kernel's public symbols (functions and variables)
+
+> application performs single task from beginning to the end but a module /registers/ itself in order to serve future requests and its main function terminates immediately
+
+> ability to unload a module is one most appreciated functions of the modularization, cuts down time and shutdown/reboot cycle
+
+> an application can call functions that it doesn't define, the linking stage resolves external references using appropriate library of functions
+
+> modules are only attached to the kernel and can only call functions that are exported by the kernel; no libraries to link to
